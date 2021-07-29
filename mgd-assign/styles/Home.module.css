@@ -1,0 +1,31 @@
+.container {
+   margin: 0;
+   padding: 0;
+   height: 100vh;
+   background: black;
+   color: white;
+}
+.container h1 {
+   margin: 0;
+}
+.sign_in_container {
+   width: 80%;
+   margin: 0 auto;
+   padding-top: 140px;
+   /* border: 1px solid red; */
+}
+.metamask_portis_container {
+   margin: 0 auto;
+   width: 60%;
+   display: flex;
+   justify-content: space-between;
+}
+.metamask,
+.portis {
+   height: 137px;
+   width: 352px;
+   margin: 16px;
+   background: rgb(31, 30, 32);
+   border: 1px solid #565656;
+   border-radius: 8px;
+}
